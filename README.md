@@ -29,9 +29,10 @@ Esse recorte contempla seleção de unidade, exibição de cardápio por unidade
 
 ```text
 raizes-nordeste-qa/
-  backend/
-  frontend/
   docs/
+  projeto/
+    backend/
+    frontend/
   README.md
   .gitignore
 ```

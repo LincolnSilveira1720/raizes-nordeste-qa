@@ -61,7 +61,7 @@ Tecnologias utilizadas:
 ### Executar backend
 
 ```bash
-cd backend
+cd projeto/backend
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
@@ -84,7 +84,7 @@ Tecnologias utilizadas:
 ### Executar frontend
 
 ```bash
-cd frontend
+cd projeto/frontend
 npm install
 npm test
 npm run build

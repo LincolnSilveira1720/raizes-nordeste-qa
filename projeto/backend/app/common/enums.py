@@ -1,0 +1,15 @@
+from enum import StrEnum
+
+
+class OrderStatus(StrEnum):
+    CREATED = "CRIADO"
+    WAITING_PAYMENT = "AGUARDANDO_PAGAMENTO"
+    PAYMENT_DENIED = "PAGAMENTO_NEGADO"
+    CONFIRMED = "CONFIRMADO"
+    PAYMENT_ERROR = "ERRO_PAGAMENTO"
+
+
+class PaymentResult(StrEnum):
+    APPROVED = "APROVADO"
+    DENIED = "NEGADO"
+    FAILURE = "FALHA"
